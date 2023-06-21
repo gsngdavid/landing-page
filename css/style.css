@@ -153,3 +153,35 @@ body {
     font-size: 30px;
     margin-top: 2rem;
 }
+
+
+.call-to-action {
+    padding: 4rem 0;
+}
+
+.call-to-action .container {
+    padding: 2.5rem 4rem;
+    background-color: #3882f8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action h1 {
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+.call-to-action p {
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+.call-to-action .action {
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    padding: .17rem 1.4rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
