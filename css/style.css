@@ -185,3 +185,14 @@ body {
     border-radius: 5px;
     text-decoration: none;
 }
+
+
+.footer {
+    background-color: #1f2937;
+    padding: 1.5rem 0;
+}
+
+.footer p {
+    color: #f9faf8;
+    text-align: center;
+}
