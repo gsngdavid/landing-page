@@ -92,5 +92,45 @@ body {
 .hero .item-2 img {
     width: 100%;
     width: 100%;
+    object-fit: cover;
+    object-position: center;
     display: inline-block;
+}
+
+
+.information {
+    padding: 3rem 0;
+}
+
+.information  h1 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.children {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.child {
+    flex: 1 1 20%;
+    max-width: 15rem;
+    min-width: 9rem;
+    border-radius: 5px;
+}
+
+.child img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: inherit;
+}
+
+.child p {
+    font-size: .8rem;
+    text-align: center;
 }
