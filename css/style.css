@@ -97,6 +97,23 @@ body {
     display: inline-block;
 }
 
+@media (max-width: 925px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-title {
+        font-size: 32px;
+    }
+    
+    .hero-subtitle {
+        font-size: 15px;
+    }
+}
+
 
 .information {
     padding: 3rem 0;
