@@ -203,6 +203,25 @@ body {
     margin-top: 2rem;
 }
 
+@media (max-width: 800px) {
+    .testimonial .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .testimonial p {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 470px) {
+    .testimonial p {
+        font-size: 28px;
+    }
+    .testimonial h4 {
+        font-size: 24px;
+    }
+}
+
 
 .call-to-action {
     padding: 4rem 0;
