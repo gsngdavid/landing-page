@@ -254,6 +254,34 @@ body {
     text-decoration: none;
 }
 
+.call-to-action .action:hover {
+    color: #3882f8;
+    background-color: #f9faf8;
+}
+
+@media (max-width: 850px) {
+    .call-to-action .container {
+        gap: 2rem 10rem;
+    }
+}
+
+@media (max-width: 667px) {
+    .call-to-action .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .call-to-action h1 {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .call-to-action .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
 
 .footer {
     background-color: #1f2937;
