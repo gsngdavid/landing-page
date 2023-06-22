@@ -127,7 +127,8 @@ body {
 }
 
 .children {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     gap: 1rem;
     padding-left: 4rem;
@@ -136,7 +137,7 @@ body {
 }
 
 .child {
-    flex: 1 1 20%;
+    width: 100%;
     max-width: 15rem;
     min-width: 9rem;
     border-radius: 5px;
@@ -152,6 +153,30 @@ body {
 .child p {
     font-size: .8rem;
     text-align: center;
+}
+
+@media (max-width: 850px) {
+    .children {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .information  h1 {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .children {
+        grid-template-columns: 1fr;
+    }
+    .child {
+        max-width: 20rem;
+    }
+    .information  h1 {
+        font-size: 32px;
+    }
 }
 
 
