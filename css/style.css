@@ -113,6 +113,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     margin-top: 2rem;
 }
 
@@ -139,6 +141,11 @@ body {
 .testimonial {
     background-color: #e5e7eb;
     padding: 3rem 0;
+}
+
+.testimonial .container {
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .testimonial p {
